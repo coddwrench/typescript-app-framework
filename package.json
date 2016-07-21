@@ -1,0 +1,28 @@
+{
+  "name": "typescript-app-framework",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Vadim Seregin <codwrench@gmail.com>",
+  "bugs": "https://github.com/coddwrench/typescript-app-framework/issues",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-mocha": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-tslint": "^6.0.1",
+    "gulp-typescript": "^2.13.6",
+    "merge2": "^1.0.2",
+    "mocha": "^2.5.3",
+    "tslint": "^3.13.0",
+    "typescript": "^1.8.10"
+  },
+  "homepage": "https://github.com/coddwrench/typescript-app-framework",
+  "keywords": [],
+  "files": [
+    "index.js"
+  ],
+  "repository": "https://github.com/coddwrench/typescript-app-framework.git"
+}
