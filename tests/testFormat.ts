@@ -1,18 +1,18 @@
 /**
  * Module dependencies.
  */
-import chai = require('chai');
+//import chai = require('chai');
 
 /**
  * Globals
  */
 
-var expect = chai.expect;
+//var expect = chai.expect;
 
 /**
  * Unit tests
  */
-describe('User Model Unit Tests:', () => {
+/*describe('User Model Unit Tests:', () => {
 
     describe('2 + 4', () => {
         it('should be 6', (done) => {
@@ -25,4 +25,4 @@ describe('User Model Unit Tests:', () => {
             done();
         });
     });
-});
+});*/

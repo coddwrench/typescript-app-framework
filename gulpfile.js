@@ -25,7 +25,6 @@ var path = {
 gulp.task('build', function () {
 	return gulp.src(path.source.current)
         .pipe(sourcemaps.init({ loadMaps: true }))
-
 		//.pipe(tslint())
         .pipe(ts(tsProject))
 		.pipe(concat(path.build.outputFile))
