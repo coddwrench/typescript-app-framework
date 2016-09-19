@@ -17,7 +17,7 @@ var path = {
 		current: "build"
 	},
 	source: {
-		current: "source/**/*.ts",
+		current: ["source/Observable2.ts","source/LiteEvent.ts"],
 		rootTarget: "../source",
 	}
 };
