@@ -17,22 +17,22 @@ var path = {
 		current: "build"
 	},
 	source: {
-		current: ["source/Observable2.ts","source/LiteEvent.ts"],
+		current: ["source/Observer3.ts", "source/LiteEvent.ts"],
 		rootTarget: "../source",
 	}
 };
 
 gulp.task('build', function () {
 	return gulp.src(path.source.current)
-        .pipe(sourcemaps.init({ loadMaps: true }))
+		.pipe(sourcemaps.init({ loadMaps: true }))
 		//.pipe(tslint())
-        .pipe(ts(tsProject))
+		.pipe(ts(tsProject))
 		.pipe(concat(path.build.outputFile))
 		.pipe(sourcemaps.write(".", {
-            includeContent: false,
-            sourceRoot: path.source.rootTarget
+			includeContent: false,
+			sourceRoot: path.source.rootTarget
 		}))
-        .pipe(gulp.dest(path.build.current));
+		.pipe(gulp.dest(path.build.current));
 });
 
 

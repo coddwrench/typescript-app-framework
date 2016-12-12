@@ -1,5 +1,5 @@
 namespace System {
-	
+
 	//ToDo: add support format functions
 	interface IFormatter {
 		getFormat(): any;
@@ -20,7 +20,7 @@ namespace System {
 	}
 }
 
-(function (string) {
+/*(function (string) {
 	var formater = new System.StringFormater();
 	string.format = function (...args: any[]) {
 		return formater.format(this, ...args);
@@ -30,4 +30,4 @@ namespace System {
 // difine format function
 interface String {
 	format(...arg: String[]): string;
-}
+}*/
